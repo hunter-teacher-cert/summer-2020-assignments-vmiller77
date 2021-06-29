@@ -11,12 +11,12 @@ public class Methods {
 		}
 	}
 	
-	public boolean isTriangle(int a, int b, int c){
-		if(a>(b+c)){
+	public static boolean isTriangle(int a, int b, int c){
+		if(a>=(b+c)){
 			return false;
-		}else if(b>(a+c)){
+		}else if(b>=(a+c)){
 			return false;
-		}else if(c>(a+b)){
+		}else if(c>=(a+b)){
 			return false;
 		}else{
 			return true;
@@ -36,5 +36,7 @@ public class Methods {
     public static void main(String[] args){
 		int p = ack(1,2);
 		System.out.println("This is it: "+ p);
+		
+		System.out.printl
     }
 }

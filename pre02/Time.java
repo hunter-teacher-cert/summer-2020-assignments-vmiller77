@@ -27,7 +27,7 @@ public class Time {
 		float secondsPassed = calcSecondsSinceMidnight(hour,minute,second);
 		float totalSeconds = TOTAL_SECONDS_IN_DAY;
 		
-		return secondsPassed/totalSeconds;
+		return (secondsPassed/totalSeconds)*100;
 	}
 	
     public static void main(String[] args){
